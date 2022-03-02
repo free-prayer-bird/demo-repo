@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T13:30:44.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="R2UVEy2ijriyxA69qZ0E" version="16.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-02T20:51:38.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AIXazYG9Aq_CM2WmeHaJ" version="16.6.4" type="github" pages="7">
   <diagram id="QtePVaprWK_kAKJ1ItFh" name="UML">
     <mxGraphModel dx="1321" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -684,7 +684,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S2Iw6PCAuiq5i_ZhvmaS" name="Detailseite Album">
-    <mxGraphModel dx="1321" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1192" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4_jjUXFNRmKOS6LjU5Za-0" />
         <mxCell id="4_jjUXFNRmKOS6LjU5Za-1" parent="4_jjUXFNRmKOS6LjU5Za-0" />
