@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T10:30:34.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="o0174or2Naw4k4O6e5ps" version="16.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-02T13:30:44.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="R2UVEy2ijriyxA69qZ0E" version="16.6.4" type="github" pages="7">
   <diagram id="QtePVaprWK_kAKJ1ItFh" name="UML">
-    <mxGraphModel dx="812" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrW0b_lZdQNC7OUzNC1I-1" target="x7zoOwzeNTza0r4jFhFb-8">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PrW0b_lZdQNC7OUzNC1I-1" target="x7zoOwzeNTza0r4jFhFb-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-1" value="Album" style="swimlane;" parent="1" vertex="1">
@@ -36,32 +36,23 @@
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-5" value="- media: media" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="70" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uJzvbrtq1FeZPgEqLkso-1" value="- description: RTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-1">
+        <mxCell id="uJzvbrtq1FeZPgEqLkso-1" value="- description: RTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="93" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uJzvbrtq1FeZPgEqLkso-2" value="- teaser: text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-1">
+        <mxCell id="uJzvbrtq1FeZPgEqLkso-2" value="- teaser: text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="113" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-1" value="- released: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-1" value="- released: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="133" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-3" value="- spotifyAvailable: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-3" value="- spotifyAvailable: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="153" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-14" value="- appleMusicAvailable: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-14" value="- appleMusicAvailable: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-1" vertex="1">
           <mxGeometry y="173" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PrW0b_lZdQNC7OUzNC1I-9" target="PrW0b_lZdQNC7OUzNC1I-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrW0b_lZdQNC7OUzNC1I-9" target="x7zoOwzeNTza0r4jFhFb-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="800" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="700" y="720" />
-              <mxPoint x="150" y="720" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-9" value="Song" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="550" y="140" width="200" height="200" as="geometry" />
@@ -72,10 +63,10 @@
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-11" value="- duration: int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-9" vertex="1">
           <mxGeometry y="50" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uJzvbrtq1FeZPgEqLkso-3" value="- description: text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-9">
+        <mxCell id="uJzvbrtq1FeZPgEqLkso-3" value="- description: text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-9" vertex="1">
           <mxGeometry y="70" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-2" value="- explicitContent: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-9">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-2" value="- explicitContent: bool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-9" vertex="1">
           <mxGeometry y="90" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-13" value="Interpret" style="swimlane;" parent="1" vertex="1">
@@ -90,325 +81,601 @@
         <mxCell id="PrW0b_lZdQNC7OUzNC1I-17" value="- biography: RTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-13" vertex="1">
           <mxGeometry y="81" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HRtRwaKuzuj-G4ap-EYi-1" value="- gallery: media" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-13">
+        <mxCell id="HRtRwaKuzuj-G4ap-EYi-1" value="- gallery: media" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-13" vertex="1">
           <mxGeometry y="101" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-10" value="- birthdate : date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PrW0b_lZdQNC7OUzNC1I-13">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-10" value="- birthdate : date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PrW0b_lZdQNC7OUzNC1I-13" vertex="1">
           <mxGeometry y="125" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-8" value="Genre" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-8" value="Genre" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="50" y="510" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-9" value="- name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="x7zoOwzeNTza0r4jFhFb-8">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-9" value="- name: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="x7zoOwzeNTza0r4jFhFb-8" vertex="1">
           <mxGeometry y="30" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-12" value="- description: RTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="x7zoOwzeNTza0r4jFhFb-8">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-12" value="- description: RTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="x7zoOwzeNTza0r4jFhFb-8" vertex="1">
           <mxGeometry y="55" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-15" value="Song- duration: int = seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-15" value="Song- duration: int = seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" y="840" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x7zoOwzeNTza0r4jFhFb-16" value="Album Genres ergibt sich aus Song Genres." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="x7zoOwzeNTza0r4jFhFb-16" value="Album Genres ergibt sich aus Song Genres." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="105" y="860" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="wYvYcVwo7TwQr_Gd8OK4" name="Views">
-    <mxGraphModel dx="812" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5HoKZ9bP3cqV0RjZwThM-0" />
         <mxCell id="5HoKZ9bP3cqV0RjZwThM-1" parent="5HoKZ9bP3cqV0RjZwThM-0" />
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-2" target="5HoKZ9bP3cqV0RjZwThM-4">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-2" target="5HoKZ9bP3cqV0RjZwThM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-2" value="Liste &lt;br&gt;Albums" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-2" value="Liste &lt;br&gt;Albums" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="110" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-3" target="5HoKZ9bP3cqV0RjZwThM-4">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-3" target="5HoKZ9bP3cqV0RjZwThM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-3" value="Landingpage Album Filter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-3" value="Landingpage Album Filter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="290" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-4" value="Detailseite Album" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-4" value="Detailseite Album" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="190" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-5" value="Songs" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-5" value="Songs" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="110" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-7" target="5HoKZ9bP3cqV0RjZwThM-4">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-7" target="5HoKZ9bP3cqV0RjZwThM-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-7" target="5HoKZ9bP3cqV0RjZwThM-5">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-7" target="5HoKZ9bP3cqV0RjZwThM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-6" target="5HoKZ9bP3cqV0RjZwThM-7">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="5HoKZ9bP3cqV0RjZwThM-1" source="5HoKZ9bP3cqV0RjZwThM-6" target="5HoKZ9bP3cqV0RjZwThM-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-6" value="Liste &lt;br&gt;Intepreter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-6" value="Liste &lt;br&gt;Intepreter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="540" y="550" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HoKZ9bP3cqV0RjZwThM-7" value="Detail Interpreter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="5HoKZ9bP3cqV0RjZwThM-7" value="Detail Interpreter" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="340" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k25EAd_-FAYIrIH_C_M4-0" value="Top Charts?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5HoKZ9bP3cqV0RjZwThM-1">
+        <mxCell id="k25EAd_-FAYIrIH_C_M4-0" value="Top Charts?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="5HoKZ9bP3cqV0RjZwThM-1" vertex="1">
           <mxGeometry x="220" y="820" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RxTgSAQtPZRyhOvXZ2T-" name="Liste Album">
-    <mxGraphModel dx="1160" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1887" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XYZBfUIqV31KoNoUFfLz-0" />
         <mxCell id="XYZBfUIqV31KoNoUFfLz-1" parent="XYZBfUIqV31KoNoUFfLz-0" />
-        <mxCell id="CCV61Xyog9YNiKcd7rqx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBorderColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="CCV61Xyog9YNiKcd7rqx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBorderColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="40" y="40" width="870" height="1570" as="geometry" />
         </mxCell>
-        <mxCell id="L-bamg3uNITYWP0qs0I_-0" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;html=1;whiteSpace=wrap;fillColor=#6C767D;fontColor=#ffffff;sketch=0;labelBackgroundColor=#FFAA00;labelBorderColor=none;fontSize=23;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="L-bamg3uNITYWP0qs0I_-0" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;html=1;whiteSpace=wrap;fillColor=#6C767D;fontColor=#ffffff;sketch=0;labelBackgroundColor=#FFAA00;labelBorderColor=none;fontSize=23;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="365" y="60" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L-bamg3uNITYWP0qs0I_-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Alben&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=#FFFFFF;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="L-bamg3uNITYWP0qs0I_-0">
+        <mxCell id="L-bamg3uNITYWP0qs0I_-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Alben&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=#FFFFFF;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" parent="L-bamg3uNITYWP0qs0I_-0" vertex="1">
           <mxGeometry width="70" height="30" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L-bamg3uNITYWP0qs0I_-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Songs&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="L-bamg3uNITYWP0qs0I_-0">
+        <mxCell id="L-bamg3uNITYWP0qs0I_-2" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Songs&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" parent="L-bamg3uNITYWP0qs0I_-0" vertex="1">
           <mxGeometry width="70" height="30" relative="1" as="geometry">
             <mxPoint x="60" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L-bamg3uNITYWP0qs0I_-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Interpreten&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="L-bamg3uNITYWP0qs0I_-0">
+        <mxCell id="L-bamg3uNITYWP0qs0I_-3" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Interpreten&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" parent="L-bamg3uNITYWP0qs0I_-0" vertex="1">
           <mxGeometry x="1" width="89" height="30" relative="1" as="geometry">
             <mxPoint x="-89" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-0" value="explicit" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-0" value="explicit" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="440" y="130" width="90" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-1" value="" style="shape=rect;fillColor=#F6F6F6;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-1" value="" style="shape=rect;fillColor=#F6F6F6;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="60" y="130" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-2" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7ui.marginRect;rx=3;ry=3;rectMargin=5;fillColor=#E4E4E4;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" vertex="1" parent="Co9m7869xmPnloD-0B9n-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-2" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7ui.marginRect;rx=3;ry=3;rectMargin=5;fillColor=#E4E4E4;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" parent="Co9m7869xmPnloD-0B9n-1" vertex="1">
           <mxGeometry width="359.99999999999994" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-3" value="Search" style="shape=mxgraph.ios7.icons.looking_glass;strokeColor=#878789;fillColor=none;fontColor=#878789;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=6;fontStyle=0;spacingTop=2;sketch=0;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="Co9m7869xmPnloD-0B9n-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-3" value="Search" style="shape=mxgraph.ios7.icons.looking_glass;strokeColor=#878789;fillColor=none;fontColor=#878789;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=6;fontStyle=0;spacingTop=2;sketch=0;labelBackgroundColor=default;labelBorderColor=none;" parent="Co9m7869xmPnloD-0B9n-1" vertex="1">
           <mxGeometry x="0.5" y="0.5" width="6" height="6" relative="1" as="geometry">
             <mxPoint x="-17" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-12" value="Spotify" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-12" value="Spotify" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="540" y="130" width="90" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-13" value="Apple Music" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="Co9m7869xmPnloD-0B9n-13" value="Apple Music" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="640" y="130" width="120" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Co9m7869xmPnloD-0B9n-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;veröffentlicht&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=#757575;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
-          <mxGeometry x="770" y="130" width="110" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Bigger Love&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;em style=&quot;box-sizing: border-box ; margin: 0px ; padding: 0px ; border: 0px ; color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;Bigger Love&lt;/em&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;&amp;nbsp;is the seventh studio album from John Legend, released on June 19, 2020.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Spotify%22%20style%3D%22html%3D1%3Bshadow%3D0%3Bdashed%3D0%3Bshape%3Dmxgraph.bootstrap.rrect%3BrSize%3D5%3BstrokeColor%3D%236C767D%3BstrokeWidth%3D1%3BfillColor%3Dnone%3BfontColor%3D%236C767D%3BwhiteSpace%3Dwrap%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BspacingLeft%3D0%3BfontStyle%3D0%3BfontSize%3D13%3Bspacing%3D5%3BlabelBackgroundColor%3Ddefault%3BlabelBorderColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22430%22%20y%3D%22240%22%20width%3D%2250%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Bigger Love&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;em style=&quot;box-sizing: border-box ; margin: 0px ; padding: 0px ; border: 0px ; color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;Bigger Love&lt;/em&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;&amp;nbsp;is the seventh studio album from John Legend, released on June 19, 2020.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Spotify%22%20style%3D%22html%3D1%3Bshadow%3D0%3Bdashed%3D0%3Bshape%3Dmxgraph.bootstrap.rrect%3BrSize%3D5%3BstrokeColor%3D%236C767D%3BstrokeWidth%3D1%3BfillColor%3Dnone%3BfontColor%3D%236C767D%3BwhiteSpace%3Dwrap%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BspacingLeft%3D0%3BfontStyle%3D0%3BfontSize%3D13%3Bspacing%3D5%3BlabelBackgroundColor%3Ddefault%3BlabelBorderColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22430%22%20y%3D%22240%22%20width%3D%2250%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry width="260" height="410" relative="1" as="geometry">
             <mxPoint x="60" y="207" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-1" value="Image cap" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-0">
+        <mxCell id="lYz8FhX2EJper5NEBva4-1" value="Image cap" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-0" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-2" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;John Legend" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-0">
+        <mxCell id="lYz8FhX2EJper5NEBva4-2" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;John Legend" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-0" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-0">
+        <mxCell id="lYz8FhX2EJper5NEBva4-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-0" vertex="1">
           <mxGeometry x="10" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-0">
+        <mxCell id="lYz8FhX2EJper5NEBva4-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-0" vertex="1">
           <mxGeometry x="20" y="319" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-13" value="Pop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-0">
+        <mxCell id="lYz8FhX2EJper5NEBva4-13" value="Pop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-0" vertex="1">
           <mxGeometry x="50" y="319" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Aretha Now&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;This card has supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=default;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Aretha Now&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;This card has supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=default;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=none;labelBorderColor=none;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="340" y="207" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-4" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-3">
+        <mxCell id="lYz8FhX2EJper5NEBva4-4" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-3" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-5" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Aretha Franklin" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-3">
+        <mxCell id="lYz8FhX2EJper5NEBva4-5" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;Aretha Franklin" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-3" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-3">
+        <mxCell id="lYz8FhX2EJper5NEBva4-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-3" vertex="1">
           <mxGeometry x="10" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-3">
+        <mxCell id="lYz8FhX2EJper5NEBva4-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-3" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-16" value="Soul" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-3">
+        <mxCell id="lYz8FhX2EJper5NEBva4-16" value="Soul" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-3" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="620" y="207" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-7" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-6">
+        <mxCell id="lYz8FhX2EJper5NEBva4-7" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-6" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-8" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-6">
+        <mxCell id="lYz8FhX2EJper5NEBva4-8" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-6" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-6">
+        <mxCell id="lYz8FhX2EJper5NEBva4-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-6" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-6">
+        <mxCell id="lYz8FhX2EJper5NEBva4-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-6" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-19" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-6">
+        <mxCell id="lYz8FhX2EJper5NEBva4-19" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-6" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="60" y="647" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-21" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-20">
+        <mxCell id="lYz8FhX2EJper5NEBva4-21" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-20" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-22" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-20">
+        <mxCell id="lYz8FhX2EJper5NEBva4-22" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-20" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-20">
+        <mxCell id="lYz8FhX2EJper5NEBva4-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-20" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-20">
+        <mxCell id="lYz8FhX2EJper5NEBva4-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-20" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-25" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-20">
+        <mxCell id="lYz8FhX2EJper5NEBva4-25" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-20" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="340" y="647" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-27" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-26">
+        <mxCell id="lYz8FhX2EJper5NEBva4-27" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-26" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-28" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-26">
+        <mxCell id="lYz8FhX2EJper5NEBva4-28" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-26" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-26">
+        <mxCell id="lYz8FhX2EJper5NEBva4-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-26" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-26">
+        <mxCell id="lYz8FhX2EJper5NEBva4-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-26" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-31" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-26">
+        <mxCell id="lYz8FhX2EJper5NEBva4-31" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-26" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="620" y="647" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-33" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-32">
+        <mxCell id="lYz8FhX2EJper5NEBva4-33" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-32" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-34" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-32">
+        <mxCell id="lYz8FhX2EJper5NEBva4-34" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-32" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-32">
+        <mxCell id="lYz8FhX2EJper5NEBva4-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-32" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-32">
+        <mxCell id="lYz8FhX2EJper5NEBva4-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-32" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-37" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-32">
+        <mxCell id="lYz8FhX2EJper5NEBva4-37" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-32" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="60" y="1087" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-39" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-38">
+        <mxCell id="lYz8FhX2EJper5NEBva4-39" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-38" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-40" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-38">
+        <mxCell id="lYz8FhX2EJper5NEBva4-40" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-38" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-38">
+        <mxCell id="lYz8FhX2EJper5NEBva4-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-38" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-38">
+        <mxCell id="lYz8FhX2EJper5NEBva4-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-38" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-43" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-38">
+        <mxCell id="lYz8FhX2EJper5NEBva4-43" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-38" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="340" y="1087" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-45" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-44">
+        <mxCell id="lYz8FhX2EJper5NEBva4-45" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-44" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-46" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-44">
+        <mxCell id="lYz8FhX2EJper5NEBva4-46" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-44" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-44">
+        <mxCell id="lYz8FhX2EJper5NEBva4-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-44" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-44">
+        <mxCell id="lYz8FhX2EJper5NEBva4-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-44" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-49" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-44">
+        <mxCell id="lYz8FhX2EJper5NEBva4-49" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-44" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="620" y="1087" width="260" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-51" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lYz8FhX2EJper5NEBva4-50">
+        <mxCell id="lYz8FhX2EJper5NEBva4-51" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" parent="lYz8FhX2EJper5NEBva4-50" vertex="1">
           <mxGeometry width="260" height="160" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-52" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-50">
+        <mxCell id="lYz8FhX2EJper5NEBva4-52" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-50" vertex="1">
           <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-50">
+        <mxCell id="lYz8FhX2EJper5NEBva4-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-50" vertex="1">
           <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lYz8FhX2EJper5NEBva4-50">
+        <mxCell id="lYz8FhX2EJper5NEBva4-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="lYz8FhX2EJper5NEBva4-50" vertex="1">
           <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-55" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lYz8FhX2EJper5NEBva4-50">
+        <mxCell id="lYz8FhX2EJper5NEBva4-55" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" parent="lYz8FhX2EJper5NEBva4-50" vertex="1">
           <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-56" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DEE2E6;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;labelBackgroundColor=none;labelBorderColor=none;fontSize=16;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+        <mxCell id="lYz8FhX2EJper5NEBva4-56" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DEE2E6;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;labelBackgroundColor=none;labelBorderColor=none;fontSize=16;" parent="XYZBfUIqV31KoNoUFfLz-1" vertex="1">
           <mxGeometry x="390" y="1540" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-57" value="&lt;&lt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-56">
+        <mxCell id="lYz8FhX2EJper5NEBva4-57" value="&lt;&lt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-56" vertex="1">
           <mxGeometry width="30" height="30" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-58" value="1" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-56">
+        <mxCell id="lYz8FhX2EJper5NEBva4-58" value="1" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-56" vertex="1">
           <mxGeometry width="30" height="30" relative="1" as="geometry">
             <mxPoint x="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-59" value="2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-56">
+        <mxCell id="lYz8FhX2EJper5NEBva4-59" value="2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-56" vertex="1">
           <mxGeometry width="30" height="30" relative="1" as="geometry">
             <mxPoint x="60" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-60" value="3" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-56">
+        <mxCell id="lYz8FhX2EJper5NEBva4-60" value="3" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-56" vertex="1">
           <mxGeometry width="30" height="30" relative="1" as="geometry">
             <mxPoint x="90" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYz8FhX2EJper5NEBva4-61" value="&gt;&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lYz8FhX2EJper5NEBva4-56">
+        <mxCell id="lYz8FhX2EJper5NEBva4-61" value="&gt;&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="lYz8FhX2EJper5NEBva4-56" vertex="1">
+          <mxGeometry x="1" width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-0" value="veröffentlicht" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="XYZBfUIqV31KoNoUFfLz-1">
+          <mxGeometry x="770" y="130" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-5" value="" style="group" vertex="1" connectable="0" parent="XYZBfUIqV31KoNoUFfLz-1">
+          <mxGeometry x="290" y="630" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=default;rounded=1;strokeWidth=1;strokeColor=#868E96;" vertex="1" parent="bOwbzEF5qDyFTc2AQZv3-5">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;fontSize=16;" vertex="1" parent="bOwbzEF5qDyFTc2AQZv3-5">
+          <mxGeometry x="5.824000000000001" y="5.824000000000001" width="28.344" height="28.344" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-6" value="" style="group" vertex="1" connectable="0" parent="XYZBfUIqV31KoNoUFfLz-1">
+          <mxGeometry x="570" y="1070" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=default;rounded=1;strokeWidth=1;strokeColor=#868E96;" vertex="1" parent="bOwbzEF5qDyFTc2AQZv3-6">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bOwbzEF5qDyFTc2AQZv3-8" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;fontSize=16;" vertex="1" parent="bOwbzEF5qDyFTc2AQZv3-6">
+          <mxGeometry x="5.824000000000001" y="5.824000000000001" width="28.344" height="28.344" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Liste Album" id="u9u3CJ6x37wHCyja1Hyg">
+    <mxGraphModel dx="1554" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-0" />
+        <mxCell id="lrAakH8B28mnRwmRRT2E-1" parent="lrAakH8B28mnRwmRRT2E-0" />
+        <mxCell id="lrAakH8B28mnRwmRRT2E-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBorderColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="40" y="40" width="870" height="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-3" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;html=1;whiteSpace=wrap;fillColor=#6C767D;fontColor=#ffffff;sketch=0;labelBackgroundColor=#FFAA00;labelBorderColor=none;fontSize=23;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="365" y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Alben&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=#FFFFFF;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-3">
+          <mxGeometry width="70" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-5" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Songs&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-3">
+          <mxGeometry width="70" height="30" relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-6" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;Interpreten&lt;/font&gt;" style="strokeColor=#666666;fillColor=#BABABA;fontColor=#333333;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;sketch=0;fontSize=16;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-3">
+          <mxGeometry x="1" width="89" height="30" relative="1" as="geometry">
+            <mxPoint x="-89" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-7" value="explicit" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="440" y="130" width="90" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-8" value="" style="shape=rect;fillColor=#F6F6F6;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="60" y="130" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-9" value="" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7ui.marginRect;rx=3;ry=3;rectMargin=5;fillColor=#E4E4E4;strokeColor=none;labelBackgroundColor=default;labelBorderColor=none;fontSize=13;fontColor=default;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-8">
+          <mxGeometry width="359.99999999999994" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-10" value="Search" style="shape=mxgraph.ios7.icons.looking_glass;strokeColor=#878789;fillColor=none;fontColor=#878789;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=6;fontStyle=0;spacingTop=2;sketch=0;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-8">
+          <mxGeometry x="0.5" y="0.5" width="6" height="6" relative="1" as="geometry">
+            <mxPoint x="-17" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-11" value="Spotify" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="540" y="130" width="90" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-12" value="Apple Music" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;strokeWidth=1;fillColor=none;fontColor=#6C767D;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="640" y="130" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;veröffentlicht&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=#757575;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="770" y="130" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Bigger Love&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;em style=&quot;box-sizing: border-box ; margin: 0px ; padding: 0px ; border: 0px ; color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;Bigger Love&lt;/em&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;programme&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;&amp;nbsp;is the seventh studio album from John Legend, released on June 19, 2020.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Spotify%22%20style%3D%22html%3D1%3Bshadow%3D0%3Bdashed%3D0%3Bshape%3Dmxgraph.bootstrap.rrect%3BrSize%3D5%3BstrokeColor%3D%236C767D%3BstrokeWidth%3D1%3BfillColor%3Dnone%3BfontColor%3D%236C767D%3BwhiteSpace%3Dwrap%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BspacingLeft%3D0%3BfontStyle%3D0%3BfontSize%3D13%3Bspacing%3D5%3BlabelBackgroundColor%3Ddefault%3BlabelBorderColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22430%22%20y%3D%22240%22%20width%3D%2250%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry width="260" height="410" relative="1" as="geometry">
+            <mxPoint x="60" y="207" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-15" value="Image cap" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-14">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-16" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;John Legend" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-14">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-14">
+          <mxGeometry x="10" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-14">
+          <mxGeometry x="20" y="319" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-19" value="Pop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-14">
+          <mxGeometry x="50" y="319" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Aretha Now&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;This card has supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=default;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="340" y="207" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-21" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-20">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-22" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;Aretha Franklin" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-20">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-20">
+          <mxGeometry x="10" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-20">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-25" value="Soul" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-20">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="620" y="207" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-27" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-26">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-28" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-26">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-26">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-26">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-31" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-26">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="60" y="647" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-33" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-32">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-34" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-32">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-35" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-32">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-32">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-37" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-32">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="340" y="647" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-39" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-38">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-40" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-38">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-38">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-38">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-43" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-38">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="620" y="647" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-45" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-44">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-46" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-44">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-44">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-44">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-49" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-44">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="60" y="1087" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-51" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-50">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-52" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-50">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-50">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-50">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-55" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-50">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="340" y="1087" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-57" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-56">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-58" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-56">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-56">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-56">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-61" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-56">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Album Name&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Album Teaser text infos. Description This is a wider card with supporting text below as a natural lead-in to additional content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;spacingBottom=0;fontSize=14;spacingTop=160;labelBackgroundColor=#FFFFFF;labelBorderColor=#FFFFFF;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="620" y="1087" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-63" value="&lt;font&gt;Image cap&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=none;resizeWidth=1;fontSize=18;labelBackgroundColor=none;labelBorderColor=none;noLabel=1;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-62">
+          <mxGeometry width="260" height="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-64" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; Interpreter Name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#DFDFDF;fontColor=#000000;resizeWidth=1;fontSize=13;align=left;spacing=20;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-62">
+          <mxGeometry y="1" width="260" height="50" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-65" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-62">
+          <mxGeometry x="20" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-66" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-musical-note-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-62">
+          <mxGeometry x="20" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-67" value="Genres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-62">
+          <mxGeometry x="50" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-68" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DEE2E6;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;labelBackgroundColor=none;labelBorderColor=none;fontSize=16;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-1">
+          <mxGeometry x="390" y="1540" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-69" value="&lt;&lt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-68">
+          <mxGeometry width="30" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-70" value="1" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-68">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-71" value="2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-68">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-72" value="3" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-68">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrAakH8B28mnRwmRRT2E-73" value="&gt;&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="lrAakH8B28mnRwmRRT2E-68">
           <mxGeometry x="1" width="30" height="30" relative="1" as="geometry">
             <mxPoint x="-30" as="offset" />
           </mxGeometry>
@@ -417,33 +684,85 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S2Iw6PCAuiq5i_ZhvmaS" name="Detailseite Album">
-    <mxGraphModel dx="1160" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4_jjUXFNRmKOS6LjU5Za-0" />
         <mxCell id="4_jjUXFNRmKOS6LjU5Za-1" parent="4_jjUXFNRmKOS6LjU5Za-0" />
-        <mxCell id="kaWDknDuUTWrD3hoHv2B-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBorderColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="kaWDknDuUTWrD3hoHv2B-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;labelBorderColor=#FFFFFF;labelBackgroundColor=#FFFFFF;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="40" y="40" width="870" height="1570" as="geometry" />
         </mxCell>
-        <mxCell id="VQd-kak4hTA449HYvydm-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-128.png;labelBorderColor=none;fontSize=16;fontColor=default;fillColor=#BABABA;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="VQd-kak4hTA449HYvydm-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-128.png;labelBorderColor=none;fontSize=16;fontColor=default;fillColor=#BABABA;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="520" y="60" width="360" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="VQd-kak4hTA449HYvydm-1" value="&lt;h1&gt;&lt;b&gt;Album Titel&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="VQd-kak4hTA449HYvydm-1" value="&lt;h1&gt;&lt;b&gt;Album Titel&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="110" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VQd-kak4hTA449HYvydm-2" value="&lt;span&gt;Album lange Beschreibung. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&amp;nbsp;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="VQd-kak4hTA449HYvydm-2" value="&lt;span&gt;Album lange Beschreibung. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&amp;nbsp;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="110" y="210" width="366" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="HBChk8OQGkviFOlTgscv-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="HBChk8OQGkviFOlTgscv-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/user_people_person_users_man-128.png;labelBorderColor=none;fontSize=13;fontColor=#000000;fillColor=#BABABA;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="110" y="170" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HBChk8OQGkviFOlTgscv-1" value="Interpret(en)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="HBChk8OQGkviFOlTgscv-1" value="Interpret(en)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="150" y="170" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HBChk8OQGkviFOlTgscv-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+        <mxCell id="HBChk8OQGkviFOlTgscv-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
           <mxGeometry x="300" y="170" width="27" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="HBChk8OQGkviFOlTgscv-3" value="Interpret(en)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
-          <mxGeometry x="340" y="170" width="100" height="30" as="geometry" />
+        <mxCell id="HBChk8OQGkviFOlTgscv-3" value="Dauer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;labelBorderColor=none;fontSize=16;fontColor=default;" parent="4_jjUXFNRmKOS6LjU5Za-1" vertex="1">
+          <mxGeometry x="340" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UibiB1NnwAhN-xpZr1Sm-0" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Erschienen am: Erscheinungsdatum&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="110" y="360" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9f7CjtJihL6IuMemqI6-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2420/512/Spotify-128.png;rounded=1;fontSize=16;strokeColor=#868E96;strokeWidth=1;fillColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="110" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9f7CjtJihL6IuMemqI6-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3-1/24/_apple-128.png;rounded=1;fontSize=13;strokeColor=#868E96;strokeWidth=1;fillColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="110" y="457" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9f7CjtJihL6IuMemqI6-3" value="verfügbar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="150" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9f7CjtJihL6IuMemqI6-4" value="nicht verfügabar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="150" y="457" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9f7CjtJihL6IuMemqI6-5" value="weitere Alben des*der Künstlers*in" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;rounded=1;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="550" y="405" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-0" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;rounded=1;fontSize=13;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="110" y="530" width="750" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-1" value="&lt;b&gt;Song Name&lt;/b&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;rounded=1;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry width="750" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-2" value="&lt;b&gt;Song Name&lt;/b&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;rounded=1;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry width="750" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-3" value="&lt;b&gt;Song Name&lt;/b&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;resizeHeight=0;align=left;spacing=10;rounded=1;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry y="1" width="750" height="30" relative="1" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-4" value="E" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fontSize=13;strokeColor=#868E96;strokeWidth=1;fillColor=default;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry x="720" y="35" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-6" value="Interpret" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry x="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-13" value="Interpret, Interpret" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry x="230" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-14" value="Interpret" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="uST9eODFDhkYI_63Bptu-0">
+          <mxGeometry x="230" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-16" value="12.000+ Mal angehört" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="590" y="457" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uST9eODFDhkYI_63Bptu-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/21.Music-128.png;rounded=1;fontSize=13;strokeColor=#868E96;strokeWidth=1;fillColor=default;" vertex="1" parent="4_jjUXFNRmKOS6LjU5Za-1">
+          <mxGeometry x="550" y="457" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
